@@ -1,0 +1,36 @@
+﻿@model TinyUrl.Models.UrlModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Tiny Url Exercise</h2>
+    <p class="lead">Intentionally over-complicated project.</p> 
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Find or create a tiny Url</h2>
+        @using (Html.BeginForm())
+        {
+            <div class="col-md-12">
+                @Html.Label("Lookup existing Url: " + Request.Url)
+                @Html.TextBox("TinyUrlLookup")
+                <input type="submit" value="Find Url">
+            </div><br/> 
+            <div class="col-md-12">
+                @Html.Label("Enter your long Url: ")
+                @Html.TextBoxFor(m => m.Url.LongUrl)
+                <input type="submit" value="Get tiny Url">
+            </div><br />
+            <div class="col-md-12 warning">
+                <a href="@Model.TinyUrl">@Model.TinyUrl</a>
+                @Html.DisplayFor(m => m.Message)
+            </div>
+        }
+    </div>
+    <div class="col-md-6">
+        <h2>Warning! </h2>
+        <p>Do not open links you got from untrusted source. Including links from this site. </p> 
+    </div>
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrl", "TinyUrl\TinyUrl.csproj", "{48AD5A03-C79B-4DC4-8977-E4021C875A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrl.Interfaces", "TinyUrl.Interfaces\TinyUrl.Interfaces.csproj", "{2A31D696-4DA2-41E2-B53B-2E666EC4D5D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrl.Data", "TinyUrl.Data\TinyUrl.Data.csproj", "{A7AB8781-4860-4C02-A8F9-49E00935A02F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48AD5A03-C79B-4DC4-8977-E4021C875A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AD5A03-C79B-4DC4-8977-E4021C875A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AD5A03-C79B-4DC4-8977-E4021C875A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AD5A03-C79B-4DC4-8977-E4021C875A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A31D696-4DA2-41E2-B53B-2E666EC4D5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A31D696-4DA2-41E2-B53B-2E666EC4D5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A31D696-4DA2-41E2-B53B-2E666EC4D5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A31D696-4DA2-41E2-B53B-2E666EC4D5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7AB8781-4860-4C02-A8F9-49E00935A02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AB8781-4860-4C02-A8F9-49E00935A02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AB8781-4860-4C02-A8F9-49E00935A02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AB8781-4860-4C02-A8F9-49E00935A02F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
